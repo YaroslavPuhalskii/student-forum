@@ -4,4 +4,14 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.16.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StudentForum.DAL\StudentForum.DAL.csproj" />
+    <ProjectReference Include="..\StudentForum.Data\StudentForum.Data.csproj" />
+  </ItemGroup>
+
 </Project>
