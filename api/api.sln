@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentForum.Api", "StudentForum.Api\StudentForum.Api.csproj", "{08DC3422-F2A4-4320-BF61-82F14D13B695}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentForum.Api", "StudentForum.Api\StudentForum.Api.csproj", "{08DC3422-F2A4-4320-BF61-82F14D13B695}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentForum.Data", "StudentForum.Data\StudentForum.Data.csproj", "{9E4B3EDA-D4E5-4A68-88DD-89F3F82BFA62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentForum.Data", "StudentForum.Data\StudentForum.Data.csproj", "{9E4B3EDA-D4E5-4A68-88DD-89F3F82BFA62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentForum.Data.Infrastructure", "StudentForum.Data.Infrastructure\StudentForum.Data.Infrastructure.csproj", "{F7F967D5-6790-480A-B796-25E9519874B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentForum.Data.Infrastructure", "StudentForum.Data.Infrastructure\StudentForum.Data.Infrastructure.csproj", "{F7F967D5-6790-480A-B796-25E9519874B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentForum.DAL", "StudentForum.DAL\StudentForum.DAL.csproj", "{8D8A03D0-6124-4306-9E0D-CC7187A2431B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentForum.DAL", "StudentForum.DAL\StudentForum.DAL.csproj", "{8D8A03D0-6124-4306-9E0D-CC7187A2431B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentForum.BL", "StudentForum.BL\StudentForum.BL.csproj", "{A5AC4F37-B3E4-4088-A9DE-236A2657F74A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8D8A03D0-6124-4306-9E0D-CC7187A2431B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D8A03D0-6124-4306-9E0D-CC7187A2431B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D8A03D0-6124-4306-9E0D-CC7187A2431B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5AC4F37-B3E4-4088-A9DE-236A2657F74A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5AC4F37-B3E4-4088-A9DE-236A2657F74A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5AC4F37-B3E4-4088-A9DE-236A2657F74A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5AC4F37-B3E4-4088-A9DE-236A2657F74A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
